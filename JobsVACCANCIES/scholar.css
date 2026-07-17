@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.background {
+    background-image: url(24-goals.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+
+}
+
+.tag-line {
+    padding-top: 70px;
+    margin-left: 20px;
+    display: grid;
+    gap: 30px;
+    color: white;
+}
+
+.tag-line h1 {
+    font-size: 50px;
+}
+
+.tag-line h2 {
+    padding-bottom: 15px;
+}
+
+#buttons {
+    margin-top: 40px;
+
+}
+
+#buttons .email {
+    padding-top: 20px;
+}
+
+.email a input {
+    padding: 8px;
+
+    font-weight: 900;
+    border: 1px solid rgb(10, 70, 250);
+}
+
+.email a input {
+    color: rgb(10, 70, 250);
+    transition: .4s ease-in-out;
+    font-size: 1.3em;
+    width: 100%;
+}
+
+.email input:hover {
+    color: white;
+    background: rgb(10, 70, 250);
+}
+
+.form {
+    text-align: center;
+    display: grid;
+    gap: 20px;
+    font-family: tahoma;
+}
+
+.form h3 {
+    font-size: 18px;
+}
+
+.up_social {
+    display: flex;
+    justify-content: center;
+}
+
+.up_social a {
+    padding: 5px;
+    margin-right: 15px;
+    color: rgb(10, 70, 250);
+    font-size: 25px;
+
+    transition: scale .8s ease-in-out;
+}
+
+.up_social a:hover {
+    background: black;
+    color: white;
+    scale: 1.2;
+}
+
+@media (max-width: 640px) {
+    .tag-line {
+        padding-top: 40px;
+    }
+}
+
+@media (max-width: 450px) {
+    #buttons {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .email {
+        display: block;
+    }
+
+    .email button {
+        margin-top: 20px;
+    }
+
+    #ach {
+        padding-top: 25px;
+    }
+}
+
+@media (max-width: 439px) {
+    #get {
+        font-size: 40px;
+    }
+
+    .tag-line {
+        padding-top: 40px;
+    }
+}
+
+@media (max-width: 375px) {
+    #get {
+        font-size: 30px;
+    }
+
+    .tag-line {
+        padding-top: 30px;
+    }
+}
