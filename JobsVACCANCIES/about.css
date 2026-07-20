@@ -9,8 +9,7 @@ main {
     background: white;
   
     display: grid;
-    align-items: center;
-    justify-content: center;
+    
 }
 
 .main2 {
